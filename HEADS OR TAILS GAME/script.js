@@ -32,5 +32,6 @@
       localStorage.setItem('resultsWinLose', JSON.stringify( resultsWinLose))
     })
 
-    win.textContent = `wins: ${resultsWinLose.win}`;
-    lose.textContent = `loses: ${resultsWinLose.lose}`;
+    win.textContent = `Your wins: ${resultsWinLose.win}`;
+
+    lose.textContent = `your loses: ${resultsWinLose.lose}`;
